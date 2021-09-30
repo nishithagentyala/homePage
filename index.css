@@ -52,6 +52,9 @@ li i {
   padding: 8px;
   margin: 2px;
 }
+.close {
+  margin-left: 200px;
+}
 .button-box {
   width: 290px;
   margin: 15px auto;
@@ -59,7 +62,6 @@ li i {
   border-radius: 30px;
   background: black;
   border: 2px solid white;
-  color: white;
 }
 .toggle {
   padding: 10px 35px;
@@ -69,6 +71,12 @@ li i {
   outline: none;
   position: relative;
   font-size: 12px;
+}
+.color {
+  color: white;
+}
+.colblk {
+  color: black;
 }
 #btn {
   position: absolute;
