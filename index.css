@@ -189,9 +189,13 @@ h4 {
 }
 @media only screen and (max-width: 600px) {
   .nav-bar {
-    width: 60%;
-    position: absolute;
+    width: 50%;
     height: 100vh;
+    position: absolute;
+    z-index: 1;
+  }
+  .bar {
+    position: relative;
   }
 
   .car {
