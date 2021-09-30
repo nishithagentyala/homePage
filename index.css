@@ -21,18 +21,36 @@ body {
   color: white;
   cursor: pointer;
   position: relative;
+  padding: 40px;
+  opacity: 1;
 }
 .nav-bar {
   background: white;
   position: absolute;
-  top: 20px;
   height: 98vh;
   width: 20%;
+  opacity: 0;
+}
+.show {
+  opacity: 1;
+}
+.hide {
+  opacity: 0;
 }
 li {
   list-style: none;
   padding: 10px;
-  margin: 20px;
+  margin: 15px;
+}
+li i {
+  background: black;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 8px;
+  margin: 2px;
 }
 .button-box {
   width: 290px;

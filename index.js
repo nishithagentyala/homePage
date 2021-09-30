@@ -7,6 +7,8 @@ const point = document.querySelector(".point");
 const submitbtn = document.querySelector(".submit");
 const loc = document.querySelector(".loc");
 const nav = document.querySelector("nav");
+const bar = document.querySelector(".bar");
+const navbar = document.querySelector(".nav-bar");
 function round() {
   btn.style.left = "0px";
   car.innerHTML = "PICK ZOOMCAR FROM";
@@ -26,3 +28,8 @@ function oneway() {
   submitbtn.classList.add("whi");
   loc.placeholder = "";
 }
+const showBar = () => {
+  navbar.classList.toggle("show");
+  bar.classList.toggle("hide");
+};
+bar.addEventListener("click", showBar);
