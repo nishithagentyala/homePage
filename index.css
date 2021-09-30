@@ -187,3 +187,14 @@ h4 {
   text-align: center;
   margin: 10px;
 }
+@media only screen and (max-width: 600px) {
+  .nav-bar {
+    width: 60%;
+    position: absolute;
+    height: 100vh;
+  }
+
+  .car {
+    margin-left: 70px;
+  }
+}
