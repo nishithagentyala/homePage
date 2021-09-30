@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="div">
+        <div class="nav-bar">
+          <i class="fas fa-bars"></i>
+          <nav>
+            <ul>
+              <li>Login or Signup</li>
+              <li>Change city</li>
+              <li>Supermiler Club</li>
+              <li>Subscribe to a car</li>
+              <li>Policies</li>
+              <li>Help & Support</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="form-box">
+          <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle" onclick="round()">
+              ROUND TRIP
+            </button>
+            <button type="button" class="toggle" onclick="oneway()">
+              ONEWAY
+            </button>
+          </div>
+        </div>
+        <p class="car">PICK ZOOMCAR FROM</p>
+        <div class="area">
+          <div class="point">
+            <span>SELF PICK-UP</span>
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <input type="text" placeholder="Preferred Area" class="loc" />
+        </div>
+        <input type="text" placeholder="Select your destination" class="dest" />
+        <form>
+          <div>
+            <label for="starttime" class="start">START TIME</label>
+            <input type="date" name="starttime" />
+          </div>
+          <div>
+            <label for="endtime" class="end">END TIME</label>
+            <input type="date" type="time" name="endtime" />
+          </div>
+        </form>
+        <button class="submit">FIND CARS</button>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="login">
+        <a href="">
+          <img src="trip.jpg" height="200px" />
+          <p>
+            If you have an upcoming or a live booking, then log into view your
+            booking.
+          </p>
+          <h4>LOGIN</h4>
+        </a>
+      </div>
+      <div class="refer">
+        <header>REFER AND EARN</header>
+        <a href="">
+          <img src="refer.jpg" width="200px" />
+          <p>
+            You earn 500 credits, your friend gets 30% (upto Rs. 2500) off on
+            their first booking of at least 8 hours.
+          </p>
+        </a>
+      </div>
+      <div class="about">
+        <span>About Us</span>
+        <button><i class="fas fa-chevron-down"></i></button>
+      </div>
+      <div class="cities">
+        <span>Cities</span>
+        <button><i class="fas fa-chevron-down"></i></button>
+      </div>
+      <div class="services">
+        <span>Airport services</span>
+        <button><i class="fas fa-chevron-down"></i></button>
+      </div>
+    </div>
+  </body>
+</html>

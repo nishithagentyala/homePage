@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: block;
+}
+.container {
+  background-image: url("mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px 650px;
+  width: 99vw;
+  height: 100vh;
+}
+.div {
+  background: rgba(0, 0, 0, 0.4);
+  height: 95vh;
+}
+.nav-bar i {
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+}
+.button-box {
+  width: 290px;
+  margin: 15px auto;
+  position: relative;
+  border-radius: 30px;
+  background: black;
+  border: 2px solid white;
+  color: white;
+}
+.toggle {
+  padding: 10px 35px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  font-size: 12px;
+}
+#btn {
+  position: absolute;
+  width: 180px;
+  height: 100%;
+  border-radius: 30px;
+  background: white;
+  transition: 0.8s;
+  text-align: center;
+}
+.car {
+  color: white;
+  margin-top: 70px;
+  margin-left: 220px;
+}
+.area {
+  background-color: white;
+  margin: 15px auto;
+  color: black;
+  width: 68%;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+}
+.area span {
+  color: blue;
+}
+.area input {
+  outline: none;
+  border: none;
+}
+.dest {
+  opacity: 0;
+}
+.desti {
+  opacity: 1;
+  padding: 20px;
+  width: 68%;
+  border-radius: 5px;
+  margin: 10px auto;
+  display: block;
+}
+form {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+form div {
+  display: grid;
+  width: 32%;
+  margin: 30px;
+}
+form label {
+  margin: 5px;
+}
+form input {
+  padding: 25px;
+}
+.submit {
+  background: green;
+  width: 15%;
+  padding: 10px;
+  border: none;
+  color: white;
+  margin: 0px auto;
+  display: block;
+}
+.whi {
+  background: white;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.login a {
+  display: flex;
+}
+.refer a {
+  display: flex;
+  padding: 10px;
+}
+
+.login,
+.refer {
+  border: 2px solid green;
+  margin: 10px;
+  padding: 5px;
+}
+.login p {
+  margin: 50px 10px;
+}
+.login h4 {
+  margin: 50px 20px;
+}
+h4 {
+  display: block;
+  font-size: 20px;
+}
+.refer p {
+  margin: 25px 40px;
+}
+.about,
+.cities,
+.services {
+  text-align: center;
+  margin: 10px;
+}
